@@ -1,6 +1,6 @@
 from django.template import loader
 from django.http import HttpResponse
-from engine.inferencia import MotorLiderazgo
+from task.engine.inferencia import MotorLiderazgo
 
 def calcular_estilo_liderazgo():
     # Crear una instancia del motor de inferencia
